@@ -1,0 +1,16 @@
+[package]
+name = "cetrinet-server"
+version = "0.1.0"
+authors = ["Robin Broda <robin@broda.me>", "Shell Turner <shell@alterednarrative.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-std = { version = "1.5.0", features = ["attributes"] }
+async-tungstenite = "0.4.2"
+futures = "0.3.4"
+serde = { version = "1.0.105", features = ["derive"] }
+corepack = { path = "corepack" }
+derive_more = "0.99.5"
+parking_lot = "0.10.0"
