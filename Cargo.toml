@@ -11,6 +11,7 @@ async-std = { version = "1.5.0", features = ["attributes"] }
 async-tungstenite = "0.4.2"
 futures = "0.3.4"
 serde = { version = "1.0.105", features = ["derive"] }
-corepack = { path = "corepack" }
+#corepack = { path = "corepack" }
 derive_more = "0.99.5"
 parking_lot = "0.10.0"
+corepack = "0.4.1"
